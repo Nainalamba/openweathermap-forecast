@@ -10,9 +10,9 @@ npm ci
 ## Running the test scenarios
 ### Run all scenarios
 ```bash
-APP_ID=api-key-here CITYNAME=Sydney DAY=Thursday TEMPERATURE=10 npm run test 
+APP_ID=your-api-key-here CITYNAME=Sydney DAY=Thursday TEMPERATURE=10 npm run test 
 ```
-- APP_ID - API KEY which is required to make the request
+- APP_ID - API KEY which is required to make the request. This can be obtained from https://home.openweathermap.org/api_keys after signing-up.
 - CITYNAME - City for which forecast is required
 - DAY - Weekday name
 - TEMPERATURE - Temperature in degrees (Celcius)
